@@ -69,7 +69,7 @@ h2 {
 	
 h3 {
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #767e9e;
 	line-height: 1.6;
 	}
@@ -111,12 +111,18 @@ p {
 	overflow: hidden;
 	}
 
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+
 /*===================================
 ============== Header ===============
 ===================================*/
 #header {
-	width: 100%;
 	background: #2d303a;
+	margin: 0;
 	overflow: hidden;
 	border-bottom: 6px solid #323746;
 	}
@@ -193,7 +199,11 @@ ul.nav-menu li a:hover {
 ============== Slider ===============
 ===================================*/
 #slider {
-	background: #f2f2f2;
+	background:url('images/Projet2014/WallDivan_Final.jpg') 50% 0 no-repeat fixed;
+	color: #f2f2f2;
+	height: 650px;
+	margin: 0;
+	background-size: cover;
 	overflow: hidden;
 	border-bottom: 6px solid #ffffff;
 	}
@@ -209,6 +219,7 @@ ul.nav-menu li a:hover {
 ===================================*/
 #portfolio {
 	background: #2d303a;
+	margin: 0;
 	overflow: hidden;
 	border-bottom: 6px solid #323746;
 	}
@@ -292,7 +303,11 @@ ul.nav-menu li a:hover {
 ============== About ===============
 ===================================*/
 #about {
-	background: #f2f2f2;
+	background:url('images/Projet2014/Chambre_Final.jpg') 50% 0 no-repeat fixed;
+	color: #f2f2f2;
+	height: 650px;
+	margin: 0;
+	background-size: cover;
 	overflow: hidden;
 	border-bottom: 6px solid #ffffff;
 	}
@@ -349,6 +364,7 @@ ul.nav-menu li a:hover {
 ===================================*/
 #footer {
 	background: #2d303a;
+	margin: 0;
 	overflow: hidden;
 	}
 
