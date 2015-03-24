@@ -12,6 +12,10 @@ html, html a {
     -webkit-font-smoothing: antialiased;
 	}
 
+img, video, canvas {
+	max-width: 100%
+	}
+	
 /*Font Face Fontello*/
 @font-face {
   font-family: 'fontello';
